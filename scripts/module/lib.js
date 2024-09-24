@@ -4,7 +4,7 @@ import { Fuse } from "../lib/fuse.mjs"
 export const COSTANTS = {
     MODULE_ID: "npc-generator-gpt",
     LOG_PREFIX: "NPC Generator (GPT) |",
-    API_URL: "https://api.openai.com/v1/chat/completions",
+    API_URL: "http://localhost:4891/v1/completions",
     TEMPLATE: {
         DIALOG: 'generate.hbs',
         ENHANCE: 'enhance.hbs',
